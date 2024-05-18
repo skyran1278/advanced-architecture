@@ -79,6 +79,10 @@ curl --location --request POST 'localhost:3000/alarms' \
 # 🚨 NOTE: remove json_pp if your operating system does not support it
 curl http://localhost:3000/alarms | json_pp
 
+# 🌍🌍🌍 CURL for Testing the PATCH /alarms endpoint
+# 💡 Copy an AlarmID from the previous GET call above, and paste below **
+curl -X PATCH http://localhost:3000/alarms/___PASTE_YOUR_ID_FROM_AN_alarmId_IN_THE_PREVIOUS_CALL____HERE_____/acknowledge
+
 # unit tests
 $ pnpm run test
 

@@ -1,6 +1,3 @@
 {
-  "cSpell.words": [
-    "cqrs",
-    "nestjs"
-  ]
+  "cSpell.words": ["autowired", "cqrs", "nestjs", "Rehydrator"]
 }
