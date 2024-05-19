@@ -51,10 +51,6 @@ $ pnpm run start:prod
 docker-compose down --remove-orphans
 docker-compose up -d
 
-curl -X POST http://localhost:3000/alarms -H "Content-Type: application/json" -d '{"name": "Test Alarm", "severity": "high"}'
-
-curl http://localhost:3000/alarms
-
 # 🌍🌍🌍 Testing everything - CURL requests
 # 🚨 NOTE: remove json_pp if your operating system does not support it
 curl --location --request POST 'localhost:3000/alarms' \
